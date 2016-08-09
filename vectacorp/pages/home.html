@@ -1,0 +1,191 @@
+<!DOCTYPE html><!-- SHORTCUT: "!" and then press "tab" -->
+<html lang="en">
+<head>
+<!-- SHORTCUT: type "meta:vp" and then "alt" + "ctrl" + "enter" -->
+<meta name="viewport" content="width=device-width">
+    
+
+<title>jQuery Mobile 01</title>    
+<!-- 3 things you need: link to jQuery Mobile CSS, link to jQuery and link to jQuery Mobile core file -->
+<link rel="stylesheet" href="../scripts/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+
+<link rel="stylesheet" href="../themes/myTheme.min.css" />
+<link rel="stylesheet" href="../themes/jquery.mobile.icons.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script><!--jQuery link-->
+<script type="text/javascript" src="../scripts/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<!-- FIRST PAGE -->
+	<section id="home" data-role="page">
+	    <header data-role="header">
+	        <h1>Welcome to Vectacorp</h1>
+	    </header>
+	         <nav data-role="navbar">
+	           <!-- ul>li*4>a[href=#]-->
+                <ul>
+	                <li><a href="#home" class="ui-btn ui-shadow ui-icon-home ui-btn-icon-top ui-btn-active ui-state-persist">Home</a></li>
+	                <li><a href="#solutions" class="ui-btn ui-shadow ui-icon-grid ui-btn-icon-top">Solutions</a></li>
+	                <li><a href="#contact" class="ui-btn ui-shadow ui-icon-mail ui-btn-icon-top">Contact</a></li>
+	            </ul>
+	        </nav>
+	         <section class="ui-content" role="main">
+	        <h4>Welcome</h4>
+
+            <p>With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience.</p>
+	    </section>
+	    <section class="ui-content" role="main">
+	        <h4>Client Testimonials</h4>
+            <div data-role="collapsible">
+            <h1>Iona Ford</h1>   
+            <p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and exposure exponentially.
+            Iona Ford
+            President
+            Chevy Dealers Association</p>
+            </div>
+            <div data-role="collapsible">
+            <h1>Robin Banks</h1>
+            <p>Incredible results from an incredible effort by the Vecta Corporation team! We are very pleased with the business benefits we have rceived by working with them.
+                
+                Robin Banks
+                CEO
+                Profits Financial, Inc.</p>
+            </div>
+	    </section>
+	    <footer data-position="fixed" data-role="footer">
+	        <h2>Vectacorp 2016</h2>
+	    </footer>
+	</section>
+<!-- SECOND PAGE -->
+	<section id="solutions" data-role="page">
+        <header data-role="header">
+	        <h1>Vectacorp</h1>
+	    </header>
+	        <nav data-role="navbar">
+	           <!-- ul>li*4>a[href=#]-->
+                <ul>
+	                <li><a href="#home" class="ui-btn ui-shadow ui-icon-home ui-btn-icon-top ui-btn-active ui-state-persist">Home</a></li>
+	                <li><a href="#solutions" class="ui-btn ui-shadow ui-icon-grid ui-btn-icon-top">Solutions</a></li>
+	                <li><a href="#contact" class="ui-btn ui-shadow ui-icon-mail ui-btn-icon-top">Contact</a></li>
+	            </ul>
+	        </nav>
+	   
+	        <div class="ui-content">
+    <h2>Our Solutions:</h2>
+
+    <ul data-role="listview" >
+      <li ><a href="#vProspect" >vProspect 2.0</a></li>
+      <li><a href="#vConvert">vConvert 2.0</a></li>
+      <li><a href="#vRetain">vRetain 1.0</a></li>
+    </ul>
+  </div>
+    <footer data-position="fixed" data-role="footer">
+	        <h2>Vectacorp 2016</h2>
+	    </footer>
+	   
+    </section>
+    <section data-role="page" data-dialog="true" data-close-btn="right" id="vProspect">
+    <header data-role="header">vProspect2.0</header>
+          <p> Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience. vProspect can help your business:
+           
+           Define your target audience and competition.
+           
+           Research your competition and your target audience's behavior, needs, technical know-how level, etc.
+           
+           Establish a conceptual and visual identity that corresponds to the defined direction of the company.
+           
+           Ensure consistency across all media.
+           
+           Establish corporate guidelines for cohesiveness of any future developments.
+           
+           Define and/or re-defining your service and/or product offerings.
+           
+           Define expansion plans and strategies.
+           
+           Implement Search Engine Optimization of all Online materials.</p>
+        
+    </section>
+     <section data-role="page" data-dialog="true" data-close-btn="right" id="vConvert">
+    <header data-role="header">vConvert 2.0</header>
+          <p> Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level. vConvert can help your business:
+
+            Build a visual and functional user front end that focuses exclusively on providing an exceptional user experience while conveying company, service and product information.
+
+            Cause the desired emotional response in a user to facilitate conversion to a client.
+
+            Build sites that move beyond merely conveying information. They advertise, motivate, excite and inspire. Users are more likely to remember and recommend your site.
+
+            Research your target audience's behavior, needs, technical know-how and level, etc.
+
+            Develop any applicable back-end programs to facilitate user interaction with the company and offerings on a highly functional level to allow any kind of online transactions and a completely centralized information collection and access point, accessible from any location.
+
+            Create an architecture to display the site content and information in a logical and easy to access manner. Facilitating thereby the desired ease, for the user to find what they are looking for quickly and easily. Allowing the user to focus on the subject at hand rather than searching for information on the site.</p>
+        
+    </section>
+    <section data-role="page" data-dialog="true" data-close-btn="right" id="vRetain">
+    <header data-role="header">vRetain 1.0</header>
+          <p> Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level. vConvert can help your business:
+
+            Build a visual and functional user front end that focuses exclusively on providing an exceptional user experience while conveying company, service and product information.
+
+            Cause the desired emotional response in a user to facilitate conversion to a client.
+
+            Build sites that move beyond merely conveying information. They advertise, motivate, excite and inspire. Users are more likely to remember and recommend your site.
+
+            Research your target audience's behavior, needs, technical know-how and level, etc.
+
+            Develop any applicable back-end programs to facilitate user interaction with the company and offerings on a highly functional level to allow any kind of online transactions and a completely centralized information collection and access point, accessible from any location.
+
+            Create an architecture to display the site content and information in a logical and easy to access manner. Facilitating thereby the desired ease, for the user to find what they are looking for quickly and easily. Allowing the user to focus on the subject at hand rather than searching for information on the site.</p>
+        
+    </section>
+ <!-- Third Page -->
+	<section id="contact" data-role="page">
+        <header data-role="header">
+	        <h1>Welcome to Vectacorp</h1>
+	    </header>
+	        <nav data-role="navbar">
+	           <!-- ul>li*4>a[href=#]-->
+                <ul>
+	                <li><a href="#home" class="ui-btn ui-shadow ui-icon-home ui-btn-icon-top ui-btn-active ui-state-persist">Home</a></li>
+	                <li><a href="#solutions" class="ui-btn ui-shadow ui-icon-grid ui-btn-icon-top">Solutions</a></li>
+	                <li><a href="#contact" class="ui-btn ui-shadow ui-icon-mail ui-btn-icon-top">Contact</a></li>
+	            </ul>
+	        </nav>
+	    <section class="ui-content" role="main">
+	        <article class="ui-content" role="main">
+	       <form method="get" action="">
+           <h1>Contact Us</h1>
+            <label for="email">Your Name</label>  
+           <input type="text" name="userName" id="userName" value="" placeholder="Your Name" />
+           
+           <label for="email">Your Email</label>  
+           <input type="email" name="email" id="email" value="" placeholder="Your Email" />
+	       
+             <div class="ui-field-contain">
+            <label for="select-choice-a" class="select">Product Interest:</label>
+            <select name="select-choice-a" id="select-choice-a" data-native-menu="false">
+                <option>Product Interest</option>
+                <option value="option1">Product 1</option>
+                <option value="option2">Product 2</option>
+                <option value="option3">Product 3</option>
+                <option value="option4">Product 4</option>
+            </select>
+               </div>
+           
+           <div class="ui-field-contain">
+	           <label for="details">Questions/ Comments </label>
+	           <textarea id="details" value="" placeholder="Questions/Comments"></textarea>
+	       </div> 
+	   
+	       </form>
+        <button class="ui-btn ui-corner-all">Submit</button>
+	    </article>		        
+        
+
+	    </section>
+	    <footer data-position="fixed" data-role="footer">
+	        <h2>Vectacorp 2016</h2>
+	    </footer>
+	</section>	
+</body>
+</html>
